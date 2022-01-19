@@ -127,5 +127,5 @@ class Game:
         while True:
             self.window.update()
             self.ball.setposition(
-                self.ball.xcor() + self.ball.dx, self.ball.ycor() + self.ball.dy)
+            self.ball.xcor() + self.ball.dx, self.ball.ycor() + self.ball.dy)
             self.ball_logic()
